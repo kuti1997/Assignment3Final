@@ -352,12 +352,12 @@ The Alienware Aurora R7 Gaming PC is part of our Gaming range, which features th
         },
         {
             'name': 'Samsung Galaxy S9',
-            'video_url': 'https://www.youtube.com/embed/tehQjoZFyGY',
+            'video_url': 'https://www.youtube.com/embed/Gzy_nCkn88U',
             'category': 'Phones'
         },
         {
             'name': 'Google Pixel 2 XL',
-            'video_url': 'https://www.youtube.com/embed/YMFpCwBw7ps',
+            'video_url': 'https://www.youtube.com/embed/KvNis_A6UaI',
             'category': 'Phones'
         },
     ],
