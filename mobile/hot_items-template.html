@@ -1,0 +1,14 @@
+<div class="col-md-12 lost" ng-repeat="item in $ctrl.list">
+    <div class="blog_con">
+        <a href="item.html">
+            <iframe width="1061" height="450" ng-src="{{item.video_url | trustUrl}}"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </a>
+        <div class="blog_info">
+            <h5 style="text-align: center"><a
+                    href="http://localhost:8080/item.html?name={{item.name}}&category={{item.category}}">{{item.name}}</a>
+            </h5>
+        </div>
+    </div>
+    <br>
+</div>
