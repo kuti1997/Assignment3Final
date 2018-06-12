@@ -1,69 +1,255 @@
-<!doctype html>
-<html ng-app="exampleApp">
-<head>
-    <meta charset="utf-8">
-    <title>Multi-Level Drop Down Menu with Pure CSS</title>
-    <!-- Example for relative path -->
-    <link rel="stylesheet" type="text/css" href="css/example-style.css">
-    <!-- Example for absolute path -->
-    <link rel="stylesheet" type="text/css" href="/shared/css/scroll-to-top.css">
-    <script src="/shared/js/scroll-to-top.js"></script>
-    <script src="/shared/js/angular.min.js"></script>
-    <script src="app/app.module.js"></script>
-    <script src="app/example-list/example-list.module.js"></script>
-    <script src="app/example-list/example-list.component.js"></script>
-    <script src="app/image-list/image-list.module.js"></script>
-    <script src="app/image-list/image-list.component.js"></script>
-    <script src="app/size-list/size-list.module.js"></script>
-    <script src="app/size-list/size-list.component.js"></script>
-    <script src="app/aviv-list/aviv-list.module.js"></script>
-    <script src="app/aviv-list/aviv-list.component.js"></script>
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Dr. Computer | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,200i,300,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic'
+          rel='stylesheet' type='text/css'>
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/blog.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:200,200i,300,400,400i,500,500i,600,600i,700,700i,800"
+          rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic"
+          rel="stylesheet" type="text/css">
 </head>
 
-<body >
-<header class="col-6 center">
-    <nav>
-        <ul>
-            <li><a href="example.html">Item</a></li>
-            <li><a href="#">Inner List 1</a>
-                <ul>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Inner Inner List 1</a>
-                        <ul>
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Item 2</a></li>
-                            <li><a href="#">Item 3</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Inner Inner List 2</a>
-                        <ul>
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Item 2</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#">Inner List 2</a>
-                <ul>
-                    <li><a href="#">Item 1</a></li>
-                    <li><a href="#">Item 2</a></li>
-                    <li><a href="#">Inner Inner List</a>
-                        <ul>
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Item 2</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Item 3</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Item 2</a></li>
-        </ul>
-    </nav>
-</header>
-<button onclick="topFunction()" id="scrollToTopButton" title="Go to top">^</button>
-<main class="col-9 center">
-    <example-list></example-list>
-</main>
+<body>
+<!-- header_top -->
+<div class="header" id="home">
+    <div class="banner_header_top_agile_w3ls">
+        <div class="header-top-wthree-agileits">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header navbar-left navbar-right">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1><a class="navbar-brand" href="index.html">Dr. Computer</a></h1>
+                </div>
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                    <div class="top_nav_left">
+                        <nav class="cl-effect-15" id="cl-effect-15">
+                            <ul>
+                                <li class="active"><a href="index.html" data-hover="Home">Home</a></li>
+                                <li><a href="about.html" data-hover="About">About</a></li>
+                                <li><a href="contact.html" data-hover="Contact">Contact</a></li>
+                                <li class="dropdown">
+                                    <a data-hover="Items" class="dropdown-toggle"
+                                       data-toggle="dropdown">Items <b class="fa fa-angle-down"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="personalComputers.html">Personal Computers</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="laptops.html">Laptops</a></li>
+                                        <li class="divider"></li>
+                                        <li><a href="mobilePhones.html">Mobile Phones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="hotItems.html" data-hover="Hot Items">Hot Items</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+    </div>
+    <!-- banner -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="http://localhost:8080/item.html?name=Iphone 8&category=Phones">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item item2">
+                <a href="http://localhost:8080/item.html?name=MacBook Air&category=Laptops">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item item3">
+                <a href="http://localhost:8080/item.html?name=Windows Phone 8X&category=Phones">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="item item4">
+                <a href="http://localhost:8080/item.html?name=MacBook Air&category=Laptops">
+                    <div class="container">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!--//banner -->
+</div>
+<!--// header_top -->
+<!--about-->
+<div class="ab_content">
+    <div class="container">
+        <div class="inner_sec_info_w3ls_agile">
+            <h3 class="tittle-w3ls" style="text-align: center">Our Products</h3>
+            <div class="col-md-12 blog_section">
+                <div class="col-md-4">
+                    <div class="blog_con">
+                        <a href="mobilePhones.html"><img src="images/indexIphonePhoto.jpg" alt=" "
+                                                         class="img-responsive"></a>
+                        <div class="blog_info">
+                            <h5 style="text-align: center"><a href="mobilePhones.html">Mobile Phones</a></h5>
+                            <p style="text-align: center">Our store sells a large variety of mobile phones that fulfil
+                                different needs that fit different kind of people.
+                                In the current era a mobile phone is a necessity product that helps and eases the
+                                day life of the people.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_con">
+                        <a href="laptops.html"><img src="images/indexLaptopPhoto.jpg" alt=" "
+                                                    class="img-responsive"></a>
+                        <div class="blog_info">
+                            <h5 style="text-align: center"><a href="laptops.html">Laptops</a></h5>
+                            <p style="text-align: center">We have a wide range of laptops that are perfect for everyday
+                                use, ranging from great-value computers for college and university to
+                                family-friendly PCs for everyone and even heavy gamers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blog_con">
+                        <a href="personalComputers.html"><img src="images/indexPcPhoto.png" alt=" "
+                                                              class="img-responsive"></a>
+                        <div class="blog_info">
+                            <h5 style="text-align: center"><a href="personalComputers.html">Personal Computers</a></h5>
+                            <p style="text-align: center">Today’s laptops satisfy,
+                                but for serious computing power you need a desktop PC. With vast storage capacity,
+                                superior sound quality and lightning fast processing, PCs provide
+                                computing at its cutting-edge best.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </div>
+</div>
+<!--//about-->
+<!-- Popup-Box -->
+<!-- //Popup-Box -->
+<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover"
+                                                                         style="opacity: 1;"> </span></a>
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+
+            $('html,body').animate({
+                scrollTop: $(this.hash).offset().top
+            }, 1000);
+        });
+    });
+
+</script>
+<!-- //end-smooth-scrolling -->
+<!-- Pricing-Popup-Box-JavaScript -->
+<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!-- //Pricing-Popup-Box-JavaScript -->
+<script>
+    $('ul.dropdown-menu li').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
+
+</script>
+<!-- js for portfolio lightbox -->
+<script src="js/jquery.chocolat.js "></script>
+<link rel="stylesheet " href="css/chocolat.css " type="text/css " media="screen ">
+<!--light-box-files -->
+<script type="text/javascript ">
+    $(function () {
+        $('.portfolio-grids a').Chocolat();
+    });
+
+</script>
+<!-- /js for portfolio lightbox -->
+<!-- smooth-scrolling-of-move-up -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        /*
+        var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+        };
+        */
+
+        $().UItoTop({
+            easingType: 'easeOutQuart'
+        });
+
+    });
+
+
+</script>
+<!-- //smooth-scrolling-of-move-up -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
 </html>
