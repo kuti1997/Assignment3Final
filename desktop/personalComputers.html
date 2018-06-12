@@ -15,6 +15,7 @@
         }
 
 
+
     </script>
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property=""/>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
@@ -113,52 +114,7 @@
                                                                          style="opacity: 1;"> </span></a>
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-
-<!--search-bar-->
-<script src="js/search.js"></script>
-<!--//search-bar-->
-<!-- cart-js -->
-<script src="js/minicart.js"></script>
-<script>
-    surf.render();
-
-    surf.cart.on('surf_checkout', function (evt) {
-        var items, len, i;
-
-        if (this.subtotal() > 0) {
-            items = this.items();
-
-            for (i = 0, len = items.length; i < len; i++) {
-            }
-        }
-    });
-
-
-</script>
-<!-- //cart-js -->
-
-<!-- price range (top products) -->
 <script src="js/jquery-ui.js"></script>
-<script>
-    //<![CDATA[
-    $(window).load(function () {
-        $("#slider-range").slider({
-            range: true,
-            min: 0,
-            max: 9000,
-            values: [50, 6000],
-            slide: function (event, ui) {
-                $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
-            }
-        });
-        $("#amount").val("$" + $("#slider-range").slider("values", 0) + " - $" + $("#slider-range").slider("values", 1));
-
-    }); //]]>
-
-
-</script>
-<!-- //price range (top products) -->
-
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/jquery.easing.min.js"></script>
@@ -174,6 +130,7 @@
     });
 
 
+
 </script>
 <!-- //end-smooth-scrolling -->
 <script>
@@ -184,26 +141,16 @@
     });
 
 
+
 </script>
 <!-- smooth-scrolling-of-move-up -->
 <script type="text/javascript">
     $(document).ready(function () {
-        /*
-        var defaults = {
-            containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-        };
-        */
-
         $().UItoTop({
             easingType: 'easeOutQuart'
         });
 
     });
-
-
 </script>
 <!-- //smooth-scrolling-of-move-up -->
 <!-- Pricing-Popup-Box-JavaScript -->
