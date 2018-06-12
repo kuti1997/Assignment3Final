@@ -131,7 +131,7 @@ Round the front there's a secondary 8 MP lens for selfies and video calling. And
 MSI's special gaming features and innovative Cooler Boost cooling solution means you can play for longer at maximum performance."""
         },
         {
-            'name': 'DELL Inspiron 7577 ',
+            'name': 'DELL Inspiron 7577',
             'price': '850$',
             'category': 'Laptops',
             'manufacturer': 'DELL',
