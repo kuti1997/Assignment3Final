@@ -31,11 +31,11 @@
     <script src="js/angular/hot_items-component.js"></script>
     <script>
         angular.module('exampleApp')
-  .filter('trustUrl', function ($sce) {
-    return function(url) {
-    return $sce.trustAsResourceUrl(url);
-   };
-});
+            .filter('trustUrl', function ($sce) {
+                return function (url) {
+                    return $sce.trustAsResourceUrl(url);
+                };
+            });
     </script>
 </head>
 
