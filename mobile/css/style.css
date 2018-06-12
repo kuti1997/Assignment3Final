@@ -247,7 +247,7 @@ b.fa.fa-angle-right {
 /* Effect 15: scale down, reveal */
 
 .cl-effect-15 a {
-    color: #f60b0e;
+    color: black;
     font-weight: 500;
     text-shadow: none;
     text-decoration: none;
@@ -256,8 +256,6 @@ b.fa.fa-angle-right {
 }
 
 .cl-effect-15 a::before {
-    color: #343435;
-    content: attr(data-hover);
     position: absolute;
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
     -moz-transition: -moz-transform 0.3s, opacity 0.3s;
