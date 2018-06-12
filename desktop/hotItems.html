@@ -29,6 +29,14 @@
     <script src="js/angular/angular-modules.js"></script>
     <script src="js/angular/app.module.js"></script>
     <script src="js/angular/hot_items-component.js"></script>
+    <script>
+        angular.module('exampleApp')
+  .filter('trustUrl', function ($sce) {
+    return function(url) {
+    return $sce.trustAsResourceUrl(url);
+   };
+});
+    </script>
 </head>
 
 <body ng-app="exampleApp">
