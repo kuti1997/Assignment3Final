@@ -1,0 +1,18 @@
+The Resources That We Use And Helped By Are :
+Css :
+https://css-tricks.com/examples/hrs/
+https://codepen.io/ibrahimjabbari/pen/ozinB
+https://www.tutorialrepublic.com/
+http://css3buttongenerator.com/
+https://www.codecademy.com/courses/web-beginner-en-TlhFi/0/1?curriculum_id=5035038ff76159000200b73c
+https://w3layouts.com/
+https://www.w3schools.com/css/default.asp
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+Js :
+https://www.w3schools.com/js/default.asp
+https://w3layouts.com/
+https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+Others Helpers :
+https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+https://getbootstrap.com/docs/4.0/content/tables/
+https://getbootstrap.com/docs/4.0/components/navbar/
